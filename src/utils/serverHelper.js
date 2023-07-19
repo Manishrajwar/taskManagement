@@ -1,5 +1,4 @@
 import { backendUrl } from "./config";
-//  const backendUrl = process.env.REACT_APP_BASE_URL;
 
 export const makeUnauthenticatedPOSTRequest = async (route, body) => {
     try {
